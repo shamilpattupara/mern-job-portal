@@ -1,0 +1,158 @@
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.main-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1e293b;
+}
+
+.body-text {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.8;
+}
+
+/* =========================
+   SECTION HEADINGS
+========================= */
+
+.section-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 50px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.primary-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+}
+
+.secondary-btn {
+  background: white;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.custom-card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.job-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section-space {
+  padding: 80px 0;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer h4 {
+  font-weight: 700;
+}
+
+footer p {
+  color: #d1d5db;
+}
+/* Floating Hero Image */
+.hero-image {
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Card Hover Effect */
+.custom-card {
+  transition: all 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.primary-btn,
+.secondary-btn,
+.btn {
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.btn:hover {
+  transform: translateY(-2px);
+}
