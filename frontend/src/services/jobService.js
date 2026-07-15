@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://mern-job-portal-oedk.onrender.com/api/jobs";
+const API_URL = "https://mern-job-portal-oedk.onrender.com/api/jobs";
 
 const getToken = () => {
   return localStorage.getItem("token");

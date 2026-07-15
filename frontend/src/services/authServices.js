@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://mern-job-portal-oedk.onrender.com/api/auth";
+const API_URL = "https://mern-job-portal-oedk.onrender.com/api/auth";
 
 export const login = async (email, password) => {
   const response = await axios.post(`${API_URL}/login`, {
